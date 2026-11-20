@@ -1,0 +1,16 @@
+[project]
+name = "jocars"
+version = "0.1.0"
+description = "Used-car price prediction for the Jordanian market (JUCars-2024)"
+requires-python = ">=3.13"
+
+[build-system]
+requires = ["setuptools>=69"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]

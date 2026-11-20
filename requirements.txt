@@ -1,0 +1,21 @@
+# Data handling
+pandas>=2.2
+numpy>=2.0
+# Machine learning
+scikit-learn>=1.5
+xgboost>=2.1
+lightgbm>=4.5
+optuna>=4.0
+# Explainability
+shap>=0.46
+# Plots
+matplotlib>=3.9
+seaborn>=0.13
+# Notebooks
+jupyter>=1.1
+nbconvert>=7.16
+# Saving models / app
+joblib>=1.4
+streamlit>=1.40
+# Tests
+pytest>=8.3

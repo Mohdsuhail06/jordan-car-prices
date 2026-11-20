@@ -1,0 +1,24 @@
+{
+  "model": "lightgbm",
+  "params": {
+    "objective": "huber",
+    "n_estimators": 1800,
+    "learning_rate": 0.047924909844310325,
+    "num_leaves": 27,
+    "min_child_samples": 5,
+    "subsample": 0.8371836288112032,
+    "colsample_bytree": 0.6826349108930896,
+    "reg_lambda": 1.4854519928471874,
+    "alpha": 0.15816275998486343
+  },
+  "n_train": 7093,
+  "n_test": 1774,
+  "test": {
+    "mae_jod": 2974.0117503650513,
+    "rmse_jod": 7614.5227526519075,
+    "mape": 0.2803603551780397,
+    "median_ape": 0.11886124790316031,
+    "within_20pct": 0.6865839909808342,
+    "r2_log": 0.7894660059434875
+  }
+}

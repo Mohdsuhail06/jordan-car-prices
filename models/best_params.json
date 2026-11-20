@@ -1,0 +1,11 @@
+{
+  "objective": "huber",
+  "n_estimators": 1800,
+  "learning_rate": 0.047924909844310325,
+  "num_leaves": 27,
+  "min_child_samples": 5,
+  "subsample": 0.8371836288112032,
+  "colsample_bytree": 0.6826349108930896,
+  "reg_lambda": 1.4854519928471874,
+  "alpha": 0.15816275998486343
+}
